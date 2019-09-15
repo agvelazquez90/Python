@@ -10,7 +10,7 @@ os.chdir('C:/Users/Angel/Desktop/DS/UCSD/Python/Python for Data Science/HW 2/wor
 
 file=open('98-0.txt', encoding="utf8")
 
-stopwords=open('stopswords', encoding="utf8")
+stopwords=open('stopwords.txt', encoding="utf8")
 
 # if you want to use stopwords, here's an example of how to do this
 # stopwords = set(line.strip() for line in open('stopwords'))
