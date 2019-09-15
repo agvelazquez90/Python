@@ -4,8 +4,13 @@
 # the text of A Tale of Two Cities, by Charles Dickens
 
 import collections
+import os
+
+os.chdir('C:/Users/Angel/Desktop/DS/UCSD/Python/Python for Data Science/HW 2/word_cloud')
 
 file=open('98-0.txt', encoding="utf8")
+
+stopwords=open('stopswords', encoding="utf8")
 
 # if you want to use stopwords, here's an example of how to do this
 # stopwords = set(line.strip() for line in open('stopwords'))
